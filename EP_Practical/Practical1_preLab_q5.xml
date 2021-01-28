@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+	<student>
+		<name>Reshmasree</name>
+		<id>30936</id>
+		<branch>CSE</branch>
+		<cgpa>8.59</cgpa>
+	</student>
+	<student>
+		<name>Bhuvana Srija</name>
+		<id>30065</id>
+		<branch>CSE</branch>
+		<cgpa>9.59</cgpa>
+	</student>
+	<student>
+		<name>Amruta</name>
+		<id>31824</id>
+		<branch>CSE</branch>
+		<cgpa>8.5</cgpa>
+	</student>
+	<student>
+		<name>Kundana</name>
+		<id>30301</id>
+		<branch>CSE</branch>
+		<cgpa>7.9</cgpa>
+	</student>
+	<student>
+		<name>Bhavya Charitha</name>
+		<id>31767</id>
+		<branch>CSE</branch>
+		<cgpa>7.9</cgpa>
+	</student>
+</class>
