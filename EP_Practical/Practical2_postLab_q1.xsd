@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="students_info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="student"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="student">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="regno"/>
+        <xs:element ref="name"/>
+        <xs:element ref="avg"/>
+        <xs:element ref="dob"/>
+        <xs:element ref="time"/>
+        <xs:element ref="mobileno"/>
+        <xs:element ref="distinction"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="regno" type="xs:integer"/>
+  <xs:element name="name" type="xs:NCName"/>
+  <xs:element name="avg" type="xs:integer"/>
+  <xs:element name="dob" type="xs:NMTOKEN"/>
+  <xs:element name="time" type="xs:string"/>
+  <xs:element name="mobileno" type="xs:integer"/>
+  <xs:element name="distinction" type="xs:NCName"/>
+</xs:schema>

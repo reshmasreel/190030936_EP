@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT students_info (student)+>
+<!ATTLIST students_info
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT student (regno,name,avg,dob,time,mobileno,distinction)>
+<!ATTLIST student
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT regno (#PCDATA)>
+<!ATTLIST regno
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT avg (#PCDATA)>
+<!ATTLIST avg
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT dob (#PCDATA)>
+<!ATTLIST dob
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT time (#PCDATA)>
+<!ATTLIST time
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mobileno (#PCDATA)>
+<!ATTLIST mobileno
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT distinction (#PCDATA)>
+<!ATTLIST distinction
+  xmlns CDATA #FIXED ''>
